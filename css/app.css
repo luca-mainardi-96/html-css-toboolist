@@ -34,5 +34,100 @@ ul, ol{
  .todo-card{
     background-color: white;
     border-radius: 10px;
+    padding-left: 30px;
  }
 
+ .button{
+   margin: 10px 0;
+   padding-top: 10px;
+ }
+
+ .button-1{
+    background-color: rgb(91, 141, 216);
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+ }
+
+.button-2{
+    background-color: white;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.list-point{
+    font-size: 10px;
+}
+
+.check{
+    display: inline;
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 4px;
+    font-size: 6px;
+}
+
+.cross{
+    display: inline;
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 4px;
+    font-size: 6px;
+}
+
+.content{
+    display: inline;
+    margin: 5px;
+}
+
+.topic{
+    display: inline;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+.time{
+    padding: 20px 0;
+    margin: 10px;
+}
+
+.task{
+    margin: 10px 0;
+}
+
+/* UTILITIES */
+
+.blue{
+    background-color: rgba(11, 126, 202, 0.623);
+}
+
+.violet{
+    background-color: blueviolet;
+}
+
+.green{
+    background-color: rgb(11, 119, 77);
+}
+
+.orange{
+    background-color: orange;
+}
+
+
+.pink {
+    background-color: palevioletred;
+}
+
+.light-green{
+    background-color: lightgreen;
+}
