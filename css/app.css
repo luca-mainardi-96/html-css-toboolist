@@ -34,12 +34,12 @@ ul, ol{
  .todo-card{
     background-color: white;
     border-radius: 10px;
-    padding-left: 30px;
  }
 
  .button{
-   margin: 10px 0;
-   padding-top: 10px;
+   border-bottom: 1px solid grey;
+   padding: 18px 30px;
+   
  }
 
  .button-1{
@@ -56,9 +56,18 @@ ul, ol{
     border-radius: 5px;
 }
 
-.todo-card .line{
-    border-top: 1px solid grey;
-    padding-left: 0;
+.card-body{
+    padding: 10px 30px;
+}
+
+.list-point{
+    display: inline;
+    font-size: 5px;
+}
+
+.task-time{
+    display: inline;
+    font-size: 20px;
 }
 
 .title{
@@ -67,7 +76,9 @@ ul, ol{
 }
 
 .list-point{
-    font-size: 10px;
+    font-size: 8px;
+    vertical-align: middle;
+    padding: 5px;
 }
 
 .check{
