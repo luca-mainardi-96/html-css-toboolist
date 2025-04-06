@@ -56,6 +56,11 @@ ul, ol{
     border-radius: 5px;
 }
 
+.todo-card .line{
+    border-top: 1px solid grey;
+    padding-left: 0;
+}
+
 .title{
     font-size: 20px;
     margin: 5px;
@@ -97,8 +102,8 @@ ul, ol{
 }
 
 .time{
-    padding: 20px 0;
-    margin: 10px;
+    padding: 10px 0;
+    margin: 10px 0;
 }
 
 .task{
